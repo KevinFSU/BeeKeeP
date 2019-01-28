@@ -16,6 +16,7 @@
 	}
 	.cart-button {
 		display: none;
+		-webkit-appearance: none;
 	}
 }
 .snipcart-summary{
