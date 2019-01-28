@@ -15,7 +15,7 @@
 		font-size: 14px;
 	}
 	.cart-button {
-		visibility: hidden;
+		display: none;
 	}
 }
 .snipcart-summary{
