@@ -64,6 +64,7 @@ body {
 }
 
 .shop {
+	min-height: 100vh;
 	top: auto;
 	width: 100%;
 	display: flex;
