@@ -102,7 +102,7 @@ body {
 	text-align: center;
 }
 .product-icon {
-	height: 100%;
+	height: inherit;
 	width: auto;
 }
 
