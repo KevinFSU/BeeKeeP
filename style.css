@@ -281,8 +281,8 @@ body {
 
 
 /*** HOVER EFFECT  **********************************************************************/
-.hexLink:hover h1, .hexLink:active h1, .hexLink:focus h1,
-.hexLink:hover p, .hexLink:active p, .hexLink:focus p{
+.hexLink:hover h1, .hexLink:focus h1,
+.hexLink:hover p, .hexLink:focus p{
   -webkit-transform:translate3d(0,0,0);
       -ms-transform:translate3d(0,0,0);
           transform:translate3d(0,0,0);
