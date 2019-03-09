@@ -2,22 +2,32 @@
 
     <div min-height="80vh";>
 			<ul class="item">
-                      <li class="hex">
+                      <li class="hex" width="66%">
                         <div class="hexIn">
-                          <a class="hexLink" href={{ page.url }}> <!-- change to snipcart link -->
+                          <a class="hexLink"> <!-- change to snipcart link -->
                             <img src={{ page.img }} alt="red 2.5x3">
-                            <h1>{{ page.title }}</h1>
-                            <p>
-                              <body>
-                              Collect for: {{ page.price }}
+                            <h1>{{ page.data-item-name }}</h1>
+                            <p class="snipcart-add-item"
+                                data-item-id={{ page.data-item-id }}
+                                data-item-name={{ page.data-item-name}}
+                                data-item-price={{ page.data-item-price }}
+                                data-item-weight={{ page.data-item-weight }}
+                                data-item-url={{ page.data-item-url }}
+                                data-item-description={{ page.data-item-description }}
+                                bottom="0"
+                                >
+                              <body href="#">
+
+                              Add to Cart: ${{ page.data-item-price }}
+
                               </body>
                             </p>
                           </a>
                         </div>
                       </li>
-                      <ul class="item">
+                      <ul class="description">
                 <li class="description">
-    {{ page.description }}</li>
+    {{ page.data-item-description }}</li>
     <li class="description">
     {{ page.features }}</li>
     </ul>

@@ -9,7 +9,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MTc5MDY3YTMtMzQ0NS00Mzc3LWE1MmItMDcwMDFjMDNkMmU2NjM2ODM2MjYzMjYwNzAyNTA5" id="snipcart"></script>
+	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MTc5MDY3YTMtMzQ0NS00Mzc3LWE1MmItMDcwMDFjMDNkMmU2NjM2ODM2MjYzMjYwNzAyNTA5" id="snipcart" data-autopop="false"></script>
 
 	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
 
@@ -35,7 +35,7 @@
     -->
       <a href="#" class="snipcart-checkout">
           <i class="fa fa-shopping-cart"></i>
-          <span class="cart-button">View Cart<span> (<span class="snipcart-total-items">0</span>)</a>
+          <span class="snipcart-summary">View Cart<span> (<span class="snipcart-total-items"></span>)</a>
       </nav>
     </div>
 </header>
@@ -45,24 +45,34 @@
 
     <div min-height="80vh";>
 			<ul class="item">
-                      <li class="hex">
+                      <li class="hex" width="66%">
                         <div class="hexIn">
-                          <a class="hexLink" href=/products/1001.html> <!-- change to snipcart link -->
+                          <a class="hexLink"> <!-- change to snipcart link -->
                             <img src=https://www.beekeep.us/assets/images/BKP_red1001.png alt="red 2.5x3">
                             <h1>2.5 x 3 Red 'BKP' Decal</h1>
-                            <p>
-                              <body>
-                              Collect for: $5.00
+                            <p class="snipcart-add-item"
+                                data-item-id=1001
+                                data-item-name=2.5 x 3 Red 'BKP' Decal
+                                data-item-price=5.00
+                                data-item-weight=1
+                                data-item-url=https://www.beekeep.us/products/1001.html
+                                data-item-description=Red Vinyl 'BKP' Decal
+                                bottom="0"
+                                >
+                              <body href="#">
+
+                              Add to Cart: $5.00
+
                               </body>
                             </p>
                           </a>
                         </div>
                       </li>
-                      <ul class="item">
+                      <ul class="description">
                 <li class="description">
-    Oracal 651 calendered red vinyl, 2.5 x 3 inch, 6-9 year outdoor life span.</li>
+    Red Vinyl 'BKP' Decal</li>
     <li class="description">
-    Color: Calendered Red<br/> Vinyl: Oracal 651<br/> Outdoor life: 6-9 years<br/> Dimensions: 2.5 x 3 inches<br/></li>
+    Color: Calendered Red<br/> Material: Oracal 651 Vinyl: Oracal 651<br/> Outdoor life: 6-9 years<br/> Dimensions: 2.5 x 3 inches<br/></li>
     </ul>
 </ul>
     </div>
