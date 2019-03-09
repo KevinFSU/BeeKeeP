@@ -90,6 +90,26 @@ body {
 
 }
 
+.item {
+	position: relative;
+	z-index: 1;
+	min-height: 100vh;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 5em;
+	display: flex;
+	flex-wrap: wrap;
+  overflow-x: hidden;
+  justify-content: center;
+
+	padding-top: 3em;
+	margin: center;
+	background: linear-gradient(217deg, #2e362f, rgba(0,0,0,0) 79.71%),
+							linear-gradient(336deg, #002424, rgba(0,0,5,1) 90.71%),
+							linear-gradient(127deg, #882308, rgba(0,0,0,1) 50.71%);
+
+}
+
 .product {
 	list-style: none;
 	height: 15rem;

@@ -1,3 +1,6 @@
 name: BEEKEEP
 theme:
 site: https://www.beekeep.us/
+collections:
+    products:
+        output: true
