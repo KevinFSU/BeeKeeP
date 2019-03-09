@@ -1,2 +1,9 @@
 name: BEEKEEP
-theme: 
+theme:
+site: https://www.beekeep.us/
+
+defaults:
+    - scope
+        path: "assets/images"
+    values:
+        image: true
