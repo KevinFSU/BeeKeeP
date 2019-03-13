@@ -158,6 +158,14 @@ body {
 	border-color: var(--pink-color);
 }
 
+.about {
+    align-self: center;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
 .footer {
 	position: relative;
 	z-index: 600;

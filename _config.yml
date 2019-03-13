@@ -1,6 +1,17 @@
 name: BEEKEEP
 theme:
 site: https://www.beekeep.us/
+collections_dir: shop
 collections:
-    products:
+    stickers:
+        layout: stickers
+        title: Stickers
+        output: true
+    performance:
+        layout: performance
+        title: Performance
+        output: true
+    clothing:
+        layout: clothing
+        title: clothing
         output: true

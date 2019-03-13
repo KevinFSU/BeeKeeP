@@ -1,0 +1,16 @@
+<!-- _includes/stickers.html -->
+{% for product in site.stickers %}
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href={{ product.url }}>
+            <img src={{ product.img }}>
+            <h1>{{ product.data-item-name }}</h1>
+            <p>
+              <body>
+              Collect for: ${{ product.data-item-price }}
+              </body>
+            </p>
+          </a>
+        </div>
+      </li>
+{% endfor %}

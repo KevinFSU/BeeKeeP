@@ -1,3 +1,5 @@
+<!-- _layouts/stickers.html -->
+<!-- _includes/head.html -->
 <head>
 	<meta charset="UTF-8" />
 
@@ -9,7 +11,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MTc5MDY3YTMtMzQ0NS00Mzc3LWE1MmItMDcwMDFjMDNkMmU2NjM2ODM2MjYzMjYwNzAyNTA5" id="snipcart" data-autopop="false"></script>
+	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MzY2MjNhOWMtOTAwMS00MmRjLWEwODQtZDhhMjNlOGMzMmZhNjM2ODM2MjYzMjYwNzAyNTA5" id="snipcart" data-autopop="false"></script>
 
 	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
 
@@ -24,10 +26,12 @@
 </head>
 
 
+<!-- _includes/header.html -->
 <header class= "site-header">
   <div class="sticky">
     <nav class="topnav">
       <a href="https://www.beekeep.us/">beekeep</a>
+      <a href="/about">About</a>
     <!--
       <a href="#">Home</a>
       <a href="#products">Products</a>
@@ -42,43 +46,44 @@
 
 
 <body>
+	<div min-height="80vh";>
+			<ul class="shop">
+<!-- _includes/stickers.html -->
 
-    <div min-height="80vh";>
-			<ul class="item">
-                      <li class="hex" width="66%">
-                        <div class="hexIn">
-                          <a class="hexLink"> <!-- change to snipcart link -->
-                            <img src=https://www.beekeep.us/assets/images/BKP_red1001.png alt="red 2.5x3">
-                            <h1>2.5 x 3 Red 'BKP' Decal</h1>
-                            <p class="snipcart-add-item"
-                                data-item-id=1001
-                                data-item-name=2.5 x 3 Red 'BKP' Decal
-                                data-item-price=5.00
-                                data-item-weight=1
-                                data-item-url=https://www.beekeep.us/products/1001.html
-                                data-item-description=Red Vinyl 'BKP' Decal
-                                bottom="0"
-                                >
-                              <body href="#">
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href=/stickers/1001.html>
+            <img src=https://www.beekeep.us/assets/images/BKP_red1001.png>
+            <h1>2.5 x 3 Red 'BKP' Decal</h1>
+            <p>
+              <body>
+              Collect for: $5.00
+              </body>
+            </p>
+          </a>
+        </div>
+      </li>
 
-                              Add to Cart: $5.00
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href=/stickers/1002.html>
+            <img src=https://www.beekeep.us/assets/images/BKP_white1002.png>
+            <h1>2.5 x 3 White 'BKP' Decal</h1>
+            <p>
+              <body>
+              Collect for: $5.00
+              </body>
+            </p>
+          </a>
+        </div>
+      </li>
 
-                              </body>
-                            </p>
-                          </a>
-                        </div>
-                      </li>
-                      <ul class="description">
-                <li class="description">
-    Red Vinyl 'BKP' Decal</li>
-    <li class="description">
-    Color: Calendered Red<br/> Material: Oracal 651 Vinyl: Oracal 651<br/> Outdoor life: 6-9 years<br/> Dimensions: 2.5 x 3 inches<br/></li>
-    </ul>
-</ul>
-    </div>
+
+            </ul>
+        </div>
 </body>
 
-
+<!-- _includes/footer.html -->
 <footer>
 	<div class="footer-banner"></div>
 <div class="footer" href="#contact">
